@@ -1,5 +1,5 @@
 const jwt=require('jsonwebtoken');
-const secret="Akarsh@2211"
+const secret="Ranjit@2211@$"
 
 // this function creates token 
 function setUser(user)
