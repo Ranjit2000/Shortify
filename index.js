@@ -76,4 +76,4 @@ app.get("/url/:shortId", async (req, res) => {
 });
 
 
-app.listen(PORT, () => console.log(`Server started at: https://shortify-n3ul.onrender.com/shortify`));
+app.listen(PORT, () => console.log(`Server started at: https://shortzy.onrender.com/shortzy`));

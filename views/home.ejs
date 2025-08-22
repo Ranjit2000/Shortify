@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shortify</title>
+    <title>Shortzy</title>
     <style>
       body {
         font-family: "Arial", sans-serif;
@@ -250,12 +250,12 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <div class="brand">Shortify</div>
+      <div class="brand">Shortzy</div>
       <ul>
-        <li><a href="https://shortify-n3ul.onrender.com/">Home</a></li>
+        <li><a href="https://shortzy.onrender.com/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="https://shortify-n3ul.onrender.com/admin/urls">Admin</a></li>
-        <li><a href="https://shortify-n3ul.onrender.com/logout">Logout</a></li>
+        <li><a href="https://shortzy.onrender.com/admin/urls">Admin</a></li>
+        <li><a href="https://shortzy.onrender.com/logout">Logout</a></li>
       </ul>
       <div class="hamburger" id="hamburger">
         <div></div>
@@ -267,7 +267,7 @@
       <% if (locals.message) { %>
       <p id="message" style="text-align: center">
         Unauthorized for Admin role
-        <a href="https://shortify-n3ul.onrender.com/">Click here</a> to go back to home page
+        <a href="https://shortzy.onrender.com/">Click here</a> to go back to home page
       </p>
 
       <% } %>
@@ -284,8 +284,8 @@
       <% if (locals.id) { %>
       <p style="text-align: center">
         Shortened URL:
-        <a href="https://shortify-n3ul.onrender.com/url/<%= id %>"
-          >https://shortify-n3ul.onrender.com/url/<%= id %></a
+        <a href="https://shortzy.onrender.com/url/<%= id %>"
+          >https://shortzy.onrender.com/url/<%= id %></a
         >
       </p>
       <button onclick="window.location.href='/';">Go Back</button>
@@ -306,8 +306,8 @@
             <td><%= index + 1 %></td>
             <td><%= url.shortId %></td>
             <td>
-              <a href="https://shortify-n3ul.onrender.com/url/<%= url.shortId %>"
-                >https://shortify-n3ul.onrender.com/url/<%= url.shortId %></a
+              <a href="https://shortzy.onrender.com/url/<%= url.shortId %>"
+                >https://shortzy.onrender.com/url/<%= url.shortId %></a
               >
             </td>
             <td><%= url.redirectURL %></td>

@@ -30,7 +30,7 @@ router.get("/logout", async (req, res) => {
   res.clearCookie('token');
   return res.render("index");
 });
-router.get("/shortify", async (req, res) => {
+router.get("/shortzy", async (req, res) => {
   return res.render("index");
 });
 router.get("/about", async (req, res) => {
