@@ -29,7 +29,7 @@
 ## Screenshots
 
 - **Home Page**:  
-  ![Home Page](./images/home_page.png)
+  ![Home Page](./images/img.png)
   
 - **User Dashboard (After Login)**:  
   ![User Dashboard](./images/user_dashboard.png)
@@ -38,7 +38,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Akarsh2012/Shortify.git
+   git clone https://github.com/Ranjit2000/Shortzy.git
 2. Install Dependencies
    ```bash
    npm install
@@ -52,7 +52,7 @@
    npm start
 ```
 ## Usage
-- Access the application at: https://shortzy.onrender.com/shortzy
+- Access the application at: https://shortzy-1.onrender.com/shortzy
 - Use the provided form to shorten URLs and track analytics.
 
 ## Future Improvements 

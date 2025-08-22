@@ -252,10 +252,10 @@
     <nav class="navbar">
       <div class="brand">Shortzy</div>
       <ul>
-        <li><a href="https://shortzy.onrender.com/">Home</a></li>
+        <li><a href="https://shortzy-1.onrender.com/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="https://shortzy.onrender.com/admin/urls">Admin</a></li>
-        <li><a href="https://shortzy.onrender.com/logout">Logout</a></li>
+        <li><a href="https://shortzy-1.onrender.com/admin/urls">Admin</a></li>
+        <li><a href="https://shortzy-1.onrender.com/logout">Logout</a></li>
       </ul>
       <div class="hamburger" id="hamburger">
         <div></div>
@@ -267,7 +267,7 @@
       <% if (locals.message) { %>
       <p id="message" style="text-align: center">
         Unauthorized for Admin role
-        <a href="https://shortzy.onrender.com/">Click here</a> to go back to home page
+        <a href="https://shortzy-1.onrender.com/">Click here</a> to go back to home page
       </p>
 
       <% } %>
@@ -284,8 +284,8 @@
       <% if (locals.id) { %>
       <p style="text-align: center">
         Shortened URL:
-        <a href="https://shortzy.onrender.com/url/<%= id %>"
-          >https://shortzy.onrender.com/url/<%= id %></a
+        <a href="https://shortzy-1.onrender.com/url/<%= id %>"
+          >https://shortzy-1.onrender.com/url/<%= id %></a
         >
       </p>
       <button onclick="window.location.href='/';">Go Back</button>
@@ -306,8 +306,8 @@
             <td><%= index + 1 %></td>
             <td><%= url.shortId %></td>
             <td>
-              <a href="https://shortzy.onrender.com/url/<%= url.shortId %>"
-                >https://shortzy.onrender.com/url/<%= url.shortId %></a
+              <a href="https://shortzy-1.onrender.com/url/<%= url.shortId %>"
+                >https://shortzy-1.onrender.com/url/<%= url.shortId %></a
               >
             </td>
             <td><%= url.redirectURL %></td>
