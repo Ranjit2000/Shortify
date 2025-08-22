@@ -1,6 +1,6 @@
-# Shortify
+# Shortzy
 
-**Shortify** is a URL shortening tool built using **Node.js** and **Express.js**, designed to convert long URLs into shorter, manageable, and trackable links. It includes features such as real-time click tracking and seamless redirection, with a responsive design to ensure compatibility across devices.
+**Shortzy** is a URL shortening tool built using **Node.js** and **Express.js**, designed to convert long URLs into shorter, manageable, and trackable links. It includes features such as real-time click tracking and seamless redirection, with a responsive design to ensure compatibility across devices.
 
 ## Features
 - **URL Shortening**: Converts long URLs into short, easy-to-share links.
@@ -29,7 +29,7 @@
 ## Screenshots
 
 - **Home Page**:  
-  ![Home Page](./images/img.png)
+  ![Home Page](./images/home.png)
   
 - **User Dashboard (After Login)**:  
   ![User Dashboard](./images/user_dashboard.png)
