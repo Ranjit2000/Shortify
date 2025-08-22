@@ -14,9 +14,9 @@ const userRoute=require('./routes/user');
 
 
 const app = express();
-const PORT = 8001;
+const PORT = 8000;
 
-connectToMongoDb("mongodb+srv://Akarsh:Akarsh2211@cluster0.v5wwq.mongodb.net/short-url?retryWrites=true&w=majority")
+connectToMongoDb("mongodb+srv://r2anjit2000:Ranjit123@cluster0.u29bgmd.mongodb.net/Shortzy?retryWrites=true&w=majority&appName=cluster0")
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log("Error while Connecting MongoDB:", err));
 
