@@ -1,7 +1,7 @@
 const express = require("express");
 const { connectToMongoDb } = require("./connection");
 const {checkForAuthentication,
-  restrictTo}=require('./middlewares/auth');
+restrictTo}=require('./middlewares/auth');
 const cookieParser = require("cookie-parser");
 
 
